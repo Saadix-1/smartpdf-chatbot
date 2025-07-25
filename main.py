@@ -20,9 +20,3 @@ def search(query, k=3):
     results = [chunks[i] for i in I[0]]
     return results
 
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return "SmartPDF Chatbot running on Heroku!"

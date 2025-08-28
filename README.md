@@ -20,7 +20,10 @@ Saad's SmartPDF Chatbot is a local AI-powered assistant that lets you interact w
 
 ## Demo
 
-[ Watch the demo](demo/a331ea0c-a8e2-46c4-85bf-e9aba27a8cfd.mov)
+<img width="1508" height="863" alt="Screenshot 2025-08-28 at 23 03 50" src="https://github.com/user-attachments/assets/df02fb97-b5f9-4a0d-855c-e603ee69445e" />
+<img width="1508" height="863" alt="Screenshot 2025-08-28 at 23 06 15" src="https://github.com/user-attachments/assets/dcd9bacc-3034-4e6e-be0d-5bbc738c46f1" />
+<img width="1508" height="863" alt="Screenshot 2025-08-28 at 23 09 02" src="https://github.com/user-attachments/assets/9fa16e4f-370f-47fd-9b0d-a057f4290e7f" />
+
 
 
 ## Project Structure

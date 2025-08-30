@@ -5,7 +5,7 @@ import numpy as np
 import sys
 from sentence_transformers import SentenceTransformer
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from llm_interface.query_ollama import query_ollama  # ✅ Ajout
+from llm_interface.query_ollama import query_ollama  
 
 def load_text_chunks(json_path, chunk_size=500):
     with open(json_path, "r", encoding="utf-8") as f:
@@ -37,11 +37,10 @@ def main():
     save_faiss_index(embeddings)
     save_mapping(chunks)
 
-    # ✅ Appel à Ollama pour tester le LLM local
     texte_complet = " ".join(chunks)  # Concaténation des chunks
-    print("🧠 Envoi du texte extrait au modèle LLM (Ollama)...")
+    print(" Envoi du texte extrait au modèle LLM (Ollama)...")
     reponse = query_ollama(texte_complet)
-    print("📩 Réponse du LLM :\n")
+    print(" Réponse du LLM :\n")
     print(reponse)
 
 if __name__ == "__main__":

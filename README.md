@@ -1,4 +1,4 @@
-# ** Saad's Smart PDF Chatbot**
+#  Saad's Smart PDF Chatbot
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-2.0%2B-blue?logo=flask&logoColor=white)

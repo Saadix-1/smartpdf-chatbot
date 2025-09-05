@@ -51,15 +51,16 @@
 smart-pdf-chatbot/
 ├── backend/
 │   ├── app.py               # Flask/FastAPI app
-│   ├── utils/
-│   │   ├── pdf_extractor.py # Extracts text from PDFs
-│   │   ├── embeddings.py    # Generates and saves embeddings
-│   │   ├── faiss_index.py   # FAISS index operations
-│   │   ├── database.py      # PostgreSQL integration
+│   ├── scripts/
+│   │   ├── extract_pdf.py # Extracts text from PDFs
+│   │   ├── embed_text.py    # Generates and saves embeddings
+│   │   ├── query_engine.py   # Engine
+│   │   ├── store_embeddings_pg.py # Store embedding using pgvector
 │   └── requirements.txt     # Backend dependencies
-├── frontend/
+├── smartpdf-frontend/
 │   ├── src/
 │   │   ├── App.js           # Main React component
+│   │   ├── App.css         # Main React component
 │   │   ├── components/      # React components
 │   ├── package.json         # Frontend dependencies
 ├── workflows/

@@ -14,7 +14,7 @@
 
 ---
 
-
+ 
 ## **Features**
 
 - **PDF Content Extraction**: Extracts and processes text from uploaded PDF files using `PyMuPDF`.

@@ -4,7 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 try:
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    api_key = os.getenv("OPENAI_API_KEY")
+    if api_key:
+        api_key = api_key.strip()
+    client = OpenAI(api_key=api_key)
     resp = client.embeddings.create(input=["Test"], model="text-embedding-3-small")
     print("SUCCESS")
 except Exception as e:

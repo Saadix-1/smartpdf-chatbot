@@ -1,0 +1,10 @@
+PyMuPDF==1.22.5
+sentence-transformers
+psycopg2-binary
+python-dotenv
+flask
+numpy
+tqdm
+pandas
+faiss-cpu
+gunicorn

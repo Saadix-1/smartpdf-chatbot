@@ -118,6 +118,8 @@ To run Saad AI locally, you will need active API keys from the respective cloud 
 4. Open your browser and navigate to `http://localhost:5173`. You can now upload PDFs and interact with Saad AI!
 
 ---
+## Demo
+<img width="1512" height="855" alt="Screenshot 2026-03-04 at 14 27 22" src="https://github.com/user-attachments/assets/73a077cd-f373-49aa-90c8-75a62286b412" />
 
 ##  **Deployment in the Cloud**
 
